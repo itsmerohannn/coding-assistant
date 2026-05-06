@@ -76,7 +76,10 @@ Run the Streamlit application:
 ├── tests/              # Unit tests for agent workflows
 └── requirements.txt    # Project dependencies
 ```
-
+\
+\
 **Author**
+
 **Vamsi Rohan Tamadala**
+
 Student at GITAM University | Aspiring ML Engineer
