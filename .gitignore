@@ -1,0 +1,15 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Streamlit/OS
+.streamlit/
+.DS_Store
+
+# FAISS index (optional, usually better to rebuild it)
+*.index
