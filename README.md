@@ -42,17 +42,22 @@ The system follows an **Agentic Workflow**:
 
 1. **Clone the repository**:
    
-   `git clone [https://github.com/itsmerohannn/coding-assistant](https://github.com/itsmerohannn/coding-assistant)`
-   `cd coding-assistant`
-2. **Create a virtual environment**:
-  `python -m venv .venv`
-  `.venv\Scripts\activate`
-3. ***Install dependencies**:
+   ```
+   git clone [https://github.com/itsmerohannn/coding-assistant](https://github.com/itsmerohannn/coding-assistant)
+   cd coding-assistant
+   ```
+3. **Create a virtual environment**:
+  ```
+   python -m venv .venv
+  .venv\Scripts\activate
+   ```
+3. **Install dependencies**:
    `pip install -r requirements.txt`
 
 ### Usage
 Run the Streamlit application:
-  `streamlit run app.py`
+  `
+  streamlit run app.py`
   1. Sidebar: Paste your reference documentation into the "Knowledge Base" section.
 
   2. Main Panel: Paste your Python code and select a task (Explain, Review, or Improve).
