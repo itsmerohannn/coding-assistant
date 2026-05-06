@@ -47,17 +47,18 @@ The system follows an **Agentic Workflow**:
    cd coding-assistant
    ```
 3. **Create a virtual environment**:
-  ```
+   ```
    python -m venv .venv
-  .venv\Scripts\activate
+   .venv\Scripts\activate
    ```
 3. **Install dependencies**:
    `pip install -r requirements.txt`
 
 ### Usage
 Run the Streamlit application:
-  `
-  streamlit run app.py`
+   ```
+  streamlit run app.py
+   ```
   1. Sidebar: Paste your reference documentation into the "Knowledge Base" section.
 
   2. Main Panel: Paste your Python code and select a task (Explain, Review, or Improve).
@@ -65,7 +66,7 @@ Run the Streamlit application:
   3. Run: Click "Run Assistant" to see the agent's analysis.
 
 ### Project Strcuture
-
+```
 ├── app.py              # Streamlit UI and application entry point
 ├── src/
 │   ├── assistant.py    # Agent logic and prompt engineering
@@ -74,6 +75,7 @@ Run the Streamlit application:
 │   └── config.py       # Model identifiers and hyperparameters
 ├── tests/              # Unit tests for agent workflows
 └── requirements.txt    # Project dependencies
+```
 
 **Author**
 **Vamsi Rohan Tamadala**
